@@ -18,4 +18,9 @@ class Welcome extends CI_Controller {
         return 'this is get word';
     }
 
+    public function get_datas()
+    {
+        return [1,2,3,4,5,6];
+    }
+
 }
