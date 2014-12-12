@@ -4,7 +4,6 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-        var_dump(BASEPATH);
 		$this->load->view('welcome_message');
 	}
 
