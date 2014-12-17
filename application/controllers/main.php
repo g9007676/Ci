@@ -10,12 +10,7 @@ class Main extends MY_Controller {
 	public function index()
 	{
         var_dump('aa');
-
-//        $this->load->model('Article', 'art', true);
-//        debug_helper::dump($this->art->get_articles());
-
-
-//        exit;
+        var_dump('bg');
 
 		$this->load->view('index');
 	}
