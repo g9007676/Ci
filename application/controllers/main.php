@@ -14,4 +14,11 @@ class Main extends MY_Controller {
 
 		$this->load->view('index');
 	}
+	public function foo()
+	{
+        var_dump('aa');
+        var_dump('bg');
+
+		$this->load->view('index');
+	}
 }
